@@ -1,3 +1,51 @@
+@import url(https://fonts.googleapis.com/css?family=Lora:400italic,400);
+
 .clear {
+  clear:both;
+}
+
+.circle {
+    font-weight:bold;
+    letter-spacing:.5px;
+    position: relative;
+    border-radius: 100%;
+    background: #00E3C8;
+    border: 1px solid #F7F7F7;
+    width: 80px;
+    height: 80px;
+    margin: 10px 10px;
+    text-align: center;
+    color: #FFF;
+    font-size: 10px;
+    line-height: 16px;
+    cursor: pointer;
+    transform:rotate(0deg);
+    -ms-transform:rotate(0deg); /* IE 9 */
+    -webkit-transform:rotate(0deg); /* Opera, Chrome, and Safari */
+}
+
+.col-xs-4 {
+  font-family: 'Lora', serif;
+  font-style: italic;
+  padding-top:30px;
+  font-size:14px;
+}
+
+.links {
+  padding-top:25px;
+}
+
+.links a{
+  font-family: 'Lora', serif;
+  color:#00E3C8;
+  font-size:24px;
+  border-bottom: 1px solid #00E3C8;
+}
+
+header {
+ border-top: 9px solid #00E3C8;
+}
+
+hr {
   clear:both;
 }
