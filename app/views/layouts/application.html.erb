@@ -30,7 +30,20 @@
 
 <br class='clear' />
 
-<%= yield %>
+<div class='container'>
+  <%= yield %>
+</div><!--div.class=container-->
+
+<div class="footer">
+    <div class="container">
+        <div class="col-xs-6 next-quote">
+        <%= link_to "This isn't enough, I need more", "#" %>
+      </div>
+      <div class="col-xs-6 text-muted copyright">
+        &copy; <a href="http://www.cargocollective.com/ericalai">Erica Lai</a>, 2016
+      </div>
+    </div><div class='container'>
+</div><!--div.class.footer-->
 
 </body>
 </html>
