@@ -28,7 +28,12 @@
   font-family: 'Lora', serif;
   font-style: italic;
   padding-top:30px;
+  padding-left:50px;
   font-size:14px;
+}
+
+.col-xs-5 {
+  padding-left:50px;
 }
 
 .links {
@@ -100,6 +105,13 @@ body {
   text-align:right;
 }
 
+@media (max-width: 750px) {
+  .footer-blurb {
+  text-align: left;
+  padding-top: 2px;
+  }
+}
+
 .next-quote {
   font-family: 'Helvetica Neue', Helvetica, sans-serif;
   font-weight:200;
@@ -122,4 +134,22 @@ body {
 
 .erica_image {
   padding-top:20px;
+}
+
+.modal {
+  font-family: 'Lora', serif;
+}
+
+h2 span {
+  color: #dddddd;
+  font-size:18px;
+  font-weight:bold;
+}
+
+.pull-right {
+  font-size: 25px;
+}
+
+::selection {
+  background-color: #00E3C8;
 }
